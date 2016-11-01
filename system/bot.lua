@@ -215,36 +215,21 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "all",
-    "anti_spam",
-    "banhammer",
-    "Groups",
-    "help",
-    "info",
-    "ingroup",
-    "invite",
-    "security",
     "plugins",
-    "setbye",
-    "setwlc",
-    "sudo",
-    "supergroup",
     "language",
-    "whitelist",
-    "tools"
     },
     vip_users = {}, --vip users
-    sudo_users = {111984481,204876190,67647823,tonumber(our_id)},--Sudo users
+    sudo_users = {274520342,tonumber(our_id)},--Sudo users
     support_gp = {},--Support id
     moderation = {data = 'data/adv.json'},
     about_text = [[*IN THE NAME OF ALLAH*
 This is an original bot and based on (AdvanSource, version 4 final).
 Copyright all right reserved and you must respect all laws.
 
-Source: https://github.com/janlou/AdvanSource
-Channel: @AdvanTm
-Messenger: @Advanbot
-Creator: @janlou
+Source: https://github.com/Tele-Sped/Spam
+Channel: @telefuckme
+Messenger: @tele_emoji
+Creator: @tele_emoji
 Site: http://StoreVps.ir
 ]],
     --Start rate:
